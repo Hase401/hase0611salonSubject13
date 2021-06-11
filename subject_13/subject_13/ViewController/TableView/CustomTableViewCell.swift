@@ -12,14 +12,14 @@ class CustomTableViewCell: UITableViewCell {
     static func nib() -> UINib {
         return UINib(nibName: "CustomTableViewCell", bundle: nil)
     }
-    // 【SwiftLint行間エラー対策】
+
     public func configure(with title: String, imageName: String, isCheckMark: Bool) {
         customLabel.text = title
         if isCheckMark {
             customImageView.image = UIImage(systemName: imageName)
         } else { return }
     }
-    //　【SwiftLint行間エラー対策】
+
     @IBOutlet private var customLabel: UILabel!
     @IBOutlet private var customImageView: UIImageView!
 }

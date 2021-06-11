@@ -14,7 +14,7 @@ final class ViewController: UIViewController {
     private let keyName = "name"
     //　【メモ】private var fruits: [Dictionary<String, Any>] = []
     private var fruits: [[String: Any]] = []
-    // 【SwiftLint行間エラー対策】
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.fruits = [

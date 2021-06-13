@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA091CC92674522100C9B167 /* FruitsArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA091CC82674522100C9B167 /* FruitsArray.swift */; };
+		BA091CCD2676477F00C9B167 /* FruitsArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA091CCC2676477F00C9B167 /* FruitsArray.swift */; };
 		BA29EEFC2670E48E0076F3F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29EEFB2670E48E0076F3F2 /* AppDelegate.swift */; };
 		BA29EEFE2670E48E0076F3F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29EEFD2670E48E0076F3F2 /* SceneDelegate.swift */; };
 		BA29EF002670E48E0076F3F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA29EEFF2670E48E0076F3F2 /* ViewController.swift */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA091CC82674522100C9B167 /* FruitsArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FruitsArray.swift; path = ../../../../FruitsArray.swift; sourceTree = "<group>"; };
+		BA091CCC2676477F00C9B167 /* FruitsArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsArray.swift; sourceTree = "<group>"; };
 		BA29EEF82670E48E0076F3F2 /* subject_13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = subject_13.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA29EEFB2670E48E0076F3F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA29EEFD2670E48E0076F3F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		BA091CC726744E1100C9B167 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BA091CC82674522100C9B167 /* FruitsArray.swift */,
+				BA091CCC2676477F00C9B167 /* FruitsArray.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -201,10 +201,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA091CC92674522100C9B167 /* FruitsArray.swift in Sources */,
 				BA29EF002670E48E0076F3F2 /* ViewController.swift in Sources */,
 				BA29EEFC2670E48E0076F3F2 /* AppDelegate.swift in Sources */,
 				BAF793DE2672C4FC008271FB /* CustomTableViewCell.swift in Sources */,
+				BA091CCD2676477F00C9B167 /* FruitsArray.swift in Sources */,
 				BA29EEFE2670E48E0076F3F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

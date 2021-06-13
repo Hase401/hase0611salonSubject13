@@ -17,7 +17,15 @@ class FruitsArray: NSObject {
         [keyCheckMark: true, keyName: "みかん"],
         [keyCheckMark: false, keyName: "バナナ"],
         [keyCheckMark: true, keyName: "パイナップル"]
-]
+    ]
+
+    // 【疑問】@objc dynamic var が使えない理由は？
+//    var fruits = [
+//        Fruit(checkMark: false, name: "りんご"),
+//        Fruit(checkMark: true, name: "みかん"),
+//        Fruit(checkMark: false, name: "バナナ"),
+//        Fruit(checkMark: true, name: "パイナップル"),
+//    ]
 
 // 【MVC順番3】fruitsの計算処理する
 }

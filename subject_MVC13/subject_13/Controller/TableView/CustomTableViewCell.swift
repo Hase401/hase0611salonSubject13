@@ -14,11 +14,9 @@ class CustomTableViewCell: UITableViewCell {
         return UINib(nibName: "CustomTableViewCell", bundle: nil)
     }
 
-    public func configure(with title: String, imageName: String, isCheckMark: Bool) {
-        customLabel.text = title
-        if isCheckMark {
-            customImageView.image = UIImage(systemName: imageName)
-        } else { return }
+    func configure(fruit: Fruit) {
+        customLabel.text = fruit.name
+        customImageView.image = fruit.checkMark ? UIImage(systemName: "checkmark") : nil
     }
 
     @IBOutlet private var customLabel: UILabel!

@@ -7,25 +7,12 @@
 
 import Foundation
 
-class FruitsArray: NSObject {
-    static let keyCheckMark = "checkMark"
-    static let keyName = "name"
-
-// 【MVC順番4】fruitsの変更を通知する
-    @objc dynamic var fruits: [[String: Any]] = [
-        [keyCheckMark: false, keyName: "りんご"],
-        [keyCheckMark: true, keyName: "みかん"],
-        [keyCheckMark: false, keyName: "バナナ"],
-        [keyCheckMark: true, keyName: "パイナップル"]
-    ]
-
+class FruitsArray {
     // 【疑問】@objc dynamic var が使えない理由は？
-//    var fruits = [
-//        Fruit(checkMark: false, name: "りんご"),
-//        Fruit(checkMark: true, name: "みかん"),
-//        Fruit(checkMark: false, name: "バナナ"),
-//        Fruit(checkMark: true, name: "パイナップル"),
-//    ]
-
-// 【MVC順番3】fruitsの計算処理する
+    let fruits = [
+        Fruit(checkMark: false, name: "りんご"),
+        Fruit(checkMark: true, name: "みかん"),
+        Fruit(checkMark: false, name: "バナナ"),
+        Fruit(checkMark: true, name: "パイナップル")
+    ]
 }
